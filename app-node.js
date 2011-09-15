@@ -23,4 +23,4 @@ var server = http.createServer(function (req, res) {
 });
 
 server.listen(http_port);
-console.log('listening to http://localhost:8124');
+console.log('listening to http://localhost:80');
