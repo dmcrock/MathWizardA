@@ -16,5 +16,5 @@ connect.createServer()
                 	require('./fibo2-node').get);
                 app.get('/mult', htutil.loadParams,
                 	require('./mult-node').get);
-        })).listen(8124);
+        })).listen(process.env['app_port']);
 console.log('listening to http://localhost:8124');
