@@ -1,0 +1,8 @@
+{
+    "name":"MathWizardA",
+    "description":"a math wizard app with no frameworks node.js only",
+    "version":"0.1.0",
+    "author":"Doug Clelland",
+    "dependencies":{},
+    "devDependencies":{}
+}
