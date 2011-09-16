@@ -27,8 +27,8 @@ app.get('/square', htutil.loadParams, function(req, res) {
 app.get('/fibonacci', htutil.loadParams, function(req, res) {
     if (req.a) {
         var httpreq = require('http').request({
-          host: "http://mathwizard.nodester.com",
-          port: 3002,
+          host: "localhost",
+          port: 11959,
           path: "/fibonacci/"+Math.floor(req.a),
           method: 'GET'
         }, function(httpresp) {
