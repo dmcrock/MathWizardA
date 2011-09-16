@@ -5,7 +5,7 @@ var util = require('util');
         "/mult/10/20", "/square/12"
 ].forEach(function(path) {
 	var req = http.request({
-        	host: "localhost",
+        	host: "http://mathwizard.nodester.com",
                 port: 3002,
                 path: path,
                 method: 'GET'
